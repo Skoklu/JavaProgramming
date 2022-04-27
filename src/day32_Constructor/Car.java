@@ -30,7 +30,7 @@ public class Car {
     }
 
     public String toString() {
-        return "Car{" +
+        return "Car1{" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", year=" + year +
@@ -40,7 +40,7 @@ public class Car {
     }
 }
 /*
-Car. (+)
+Car1. (+)
 		 instance variables:
 		 		make, model, year, price, color
 

@@ -19,7 +19,7 @@ public class Car {
     }
 
     public String toString() {  //toString roles is printing the object on the console
-        return "Car{" +
+        return "Car1{" +
                 "brand='" + brand + '\'' +
                 ", modal='" + model + '\'' +
                 ", color='" + color + '\'' +

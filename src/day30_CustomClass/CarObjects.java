@@ -23,7 +23,7 @@ public class CarObjects {
         System.out.println(car3);
 
 
-        //Car[] cars ={car1, car2, car3 };
+        //Car1[] cars ={car1, car2, car3 };
 
         ArrayList<Car> carList = new ArrayList<>();
         carList.addAll(Arrays.asList(car1, car2, car3 ));
