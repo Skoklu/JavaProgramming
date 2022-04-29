@@ -18,5 +18,32 @@ public class EmployeeObjects {
         System.out.println(developer1);
         System.out.println(teacher1);
         System.out.println(driver1);
+
+        tester1.work();
+        tester1.sleep();
+        tester1.bugReport();
+        tester1.eat();
+
+        System.out.println("-----------------------------------------------------------");
+
+        developer1.work();
+        developer1.sleep();
+       // developer1.bugReport();
+        developer1.eat();
+        developer1.unitTest();
+
+        System.out.println("-----------------------------------------------------------");
+
+        teacher1.work();
+        teacher1.sleep();
+        teacher1.eat();
+
+        System.out.println("-----------------------------------------------------------");
+
+        driver1.work();
+        driver1.sleep();
+        driver1.eat();
+
+
     }
 }

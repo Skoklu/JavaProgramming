@@ -42,7 +42,7 @@ public abstract class Person {
     }
 
     public void setGender(char gender) {
-        if (!(gender=='m' || gender =='F')){
+        if (!(gender=='M' || gender =='F')){
             throw new RuntimeException(gender + " is invalid entry");
         }
         this.gender = gender;
@@ -54,7 +54,7 @@ public abstract class Person {
 
     //Instance Method
     public void eat(){
-        System.out.println(name+ "is eating baklava");
+        System.out.println(name+ " is eating baklava");
     }
 
 
