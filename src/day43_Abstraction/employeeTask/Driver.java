@@ -16,3 +16,8 @@ public final class Driver extends Employee{
         System.out.println(getName()+ " sleeps 10 hours");
     }
 }
+/*
+
+		Driver
+			work(): driving
+ */

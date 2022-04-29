@@ -56,3 +56,11 @@ public abstract class Employee extends Person{
                 '}';
     }
 }
+/*
+abstract Employee extends Person:
+			 id(final), jobTitle, salary...
+
+			work();
+
+
+ */

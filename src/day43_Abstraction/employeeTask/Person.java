@@ -67,3 +67,15 @@ public abstract class Person {
                 '}';
     }
 }
+/*
+Employee task:
+		abstract Person:
+			name, age, gender(final)
+
+			eat();
+			sleep();
+
+
+
+
+ */

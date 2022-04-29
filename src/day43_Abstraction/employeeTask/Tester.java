@@ -20,3 +20,10 @@ public final class Tester extends Employee {
         System.out.println(getName()+ " is creating bug reports");
     }
 }
+/*
+Tester
+			work(): testing
+
+
+
+ */

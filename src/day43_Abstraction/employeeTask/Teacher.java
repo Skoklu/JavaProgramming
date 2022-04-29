@@ -18,3 +18,10 @@ public final class Teacher extends Employee{
 
     }
 }
+/*
+Teacher
+			work(): teaching
+
+
+
+ */
