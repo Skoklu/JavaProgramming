@@ -14,3 +14,9 @@ public final class Honda extends Car{
         System.out.println("Twist the key to ignition");
     }
 }
+/*
+Honda extends Car:
+		start(): twist the key to ignition
+
+
+ */

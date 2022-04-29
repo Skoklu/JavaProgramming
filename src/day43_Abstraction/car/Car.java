@@ -66,3 +66,13 @@ public abstract class Car {
                 '}';
     }
 }
+/*
+Car Task:
+	abstract Car:
+		make, model, color, year, price....
+		start();
+		stop()
+
+
+
+ */
