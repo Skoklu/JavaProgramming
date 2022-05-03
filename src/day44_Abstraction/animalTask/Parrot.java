@@ -1,6 +1,6 @@
 package day44_Abstraction.animalTask;
 
-public final class Parrot extends Animal{
+public final class Parrot extends Animal implements Playable{
 
 
     public Parrot(String name, String breed, char gender, int age, String size, String color) {
@@ -11,4 +11,10 @@ public final class Parrot extends Animal{
     public void eat() {
         System.out.println(getName()+ " is eating seeds");
     }
+
+
+    public void play(){
+        System.out.println(getName()+ " is playing with toys");
+    }
+
 }
