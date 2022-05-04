@@ -4,9 +4,11 @@ public class Square extends Shape{
 
     private int side;
 
-    public Square(int side) {
+
+    public Square(int side, int height) {
         super("Square");
         setSide(side);
+
     }
 
     public int getSide() {
@@ -37,4 +39,5 @@ public class Square extends Shape{
                 "side=" + side +
                 '}';
     }
+
 }
