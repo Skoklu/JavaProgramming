@@ -2,6 +2,7 @@ package day44_Abstraction.animalTask;
 
 public abstract class Animal {
 
+
     private String name;
     private final String breed;
     private final char gender;
