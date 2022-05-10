@@ -45,7 +45,7 @@ public class ReferenceTypeCasting {
         //cat.meow();
 
         ((Cat) animal2).meow();
-        ((Dog)animal2).bark();
+        //((Dog)animal2).bark();
 
 
     }
