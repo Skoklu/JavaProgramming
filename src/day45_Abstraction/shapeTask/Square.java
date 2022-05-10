@@ -4,15 +4,9 @@ public class Square extends Shape{
 
     private int side;
 
-
-    public Square(int side, int height) {
-        super("Square");
-        setSide(side);
-
-    }
-
-    public int getSide() {
-        return side;
+    public Square(String name, int side) {
+        super(name);
+        this.side = side;
     }
 
     public void setSide(int side) {

@@ -23,4 +23,7 @@ public abstract class Shape {
                 ", perimeter='" + perimeter() + '\'' +
                 '}';
     }
+
+    public void getSide() {
+    }
 }
