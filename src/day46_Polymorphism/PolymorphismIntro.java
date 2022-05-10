@@ -34,7 +34,7 @@ public class PolymorphismIntro {
 
       driver = FireFoxDriver();*/
 
-       Employee tester1 = new Tester("Ali", 30, 'M', 42, 100000);
+       Employee tester1 = new Tester("Ali", 30, 'M', 42, "QA",100000);
         Employee  developer1 = new Developer("Alex", 28, 'M',32,
                 "Developer",125000);
         Employee  teacher1 =new Teacher("Angal", 34, 'F', 52,
@@ -52,7 +52,7 @@ public class PolymorphismIntro {
 
         System.out.println("------------------------------------------------------------------");
 
-        Employee employee1 = new Tester("Ali", 30, 'M', 42, 100000);
+        Employee employee1 = new Tester("Ali", 30, 'M', 42, "QA",100000);
         employee1.work();
         //employee1.bugReport();
 

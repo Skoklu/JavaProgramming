@@ -51,7 +51,7 @@ public class ReferenceTypeCasting {
 
         System.out.println("----------------------------------------------------");
 
-        Employee employee = new Tester("Ali", 30, 'M', 42, 100000);
+        Employee employee = new Tester("Ali", 30, 'M', 42, "QA",100000);
         ((Tester) employee).bugReport();
         //((Tester) employee).unitTest();
         //((Developer) employee).unitTest();
