@@ -1,8 +1,6 @@
 package day47_Polymorphism;
 
-import day43_Abstraction.employeeTask.Developer;
-import day43_Abstraction.employeeTask.Employee;
-import day43_Abstraction.employeeTask.Tester;
+import day43_Abstraction.employeeTask.*;
 import day44_Abstraction.animalTask.Animal;
 import day44_Abstraction.animalTask.Cat;
 import day44_Abstraction.animalTask.Dog;
@@ -56,7 +54,20 @@ public class ReferenceTypeCasting {
         Employee employee = new Tester("Ali", 30, 'M', 42, 100000);
         ((Tester) employee).bugReport();
         //((Tester) employee).unitTest();
-        ((Developer) employee).unitTest();
+        //((Developer) employee).unitTest();
+
+        // Driver driver = (Driver) employee;
+        Person person = (Person) employee;
+        // Teacher teacher = (Teacher) employee;
+
+        System.out.println("--------------------------------------------------------");
+
+        Shape s1 = new Circle(10);
+        s1.area();
+        s1.perimeter();
+       //((Cube) s1).volume();  //THERE IS NO RELATIONSHIP between Circle and Cube
+
+
 
 
 
