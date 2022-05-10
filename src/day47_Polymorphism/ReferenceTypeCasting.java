@@ -1,5 +1,7 @@
 package day47_Polymorphism;
 
+import day43_Abstraction.employeeTask.Employee;
+import day43_Abstraction.employeeTask.Tester;
 import day44_Abstraction.animalTask.Animal;
 import day44_Abstraction.animalTask.Cat;
 import day44_Abstraction.animalTask.Dog;
@@ -46,6 +48,13 @@ public class ReferenceTypeCasting {
 
         ((Cat) animal2).meow();
         //((Dog)animal2).bark();
+
+
+        System.out.println("----------------------------------------------------");
+
+        Employee employee = new Tester("Ali", 30, 'M', 42, 100000);
+        ((Tester) employee).bugReport();
+
 
 
     }
