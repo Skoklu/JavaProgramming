@@ -1,4 +1,4 @@
-package day_Collections_Map;
+package day50_Collections_Map;
 
 import java.util.*;
 
