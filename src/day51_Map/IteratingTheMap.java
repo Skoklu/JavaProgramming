@@ -31,7 +31,7 @@ public class IteratingTheMap {
         Map<String, Integer> angryBirds = new HashMap<>();  //score < 90
 
 
-        // "keySet" method
+        // "keySet()" method: returns all the keys of the map, returnType is Set
         for (String key : students.keySet()) {
             Integer value = students.get(key);
             if (value >= 90){
@@ -55,7 +55,7 @@ public class IteratingTheMap {
         System.out.println(scores);
 
 
-        //  "values" method
+        //  "values()" method:returns all the values of the map, return type is Collection
         for (Integer value : students.values()) {
             System.out.println(value);
 
@@ -115,7 +115,10 @@ public class IteratingTheMap {
         System.out.println("-----------------------------------------------------------");
 
 
-        // "entrySet" method
+        // "entrySet()" method: returns all the entries (Entry: key & value) of Map
+
+        //getKey(), getValue(), setKey(), setValue() are used with entrySet Method
+
         for (Map.Entry<String, Integer> entry : students.entrySet()) {
             //System.out.println(entry);
             System.out.println(entry.getKey() + " : "+ entry.getValue());
