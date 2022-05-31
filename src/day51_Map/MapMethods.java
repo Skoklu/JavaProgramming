@@ -9,7 +9,7 @@ public class MapMethods {
 
 
         //student name & score
-        //"put()" method
+        //"put(key, value)" method: inserts the given key and value to map
 
         Map<String, Integer> students = new HashMap<>();
         students.put("Aygun", 95);
@@ -33,17 +33,17 @@ public class MapMethods {
 
 
         //  display the score of Alex:
-        //  "get()" method
+        //  "get(key)" method: returns the value of the given key
         System.out.println(students.get("Alex"));
 
 
         // replace Ali' score to 90
-        //  "replace()" method
+        //  "replace(key, newValue)" method: replaces the value of the given key with the given new value
         students.replace("Ali", 90);
         System.out.println(students);
 
 
-        //"remove()" method
+        //"remove(key)" method: removes the given key and its value from the map
         students.remove("Alex");
         System.out.println(students);
 
@@ -52,23 +52,23 @@ public class MapMethods {
         System.out.println(students);
 
 
-        //  "contains()" method
+        //  "containsKey(key)" method: returns true if the given key is contained in the map, otherwise returns false
         boolean isContain = students.containsKey("Muhtar");
         boolean isContain2 = students.containsKey("Serkan");
         System.out.println(isContain);
         System.out.println(isContain2);
 
 
-        //"containsValue()" method
+        //"containsValue(Value)" method: returns true if the given value is contained in the map, otherwise returns false
         boolean isContainsValue = students.containsValue(97);
         System.out.println(isContainsValue);
 
 
-        //"isEmpty()" method
+        //"isEmpty()" method:returns true if the size of the map is 0, otherwise returns false
         System.out.println(students.isEmpty());
 
 
-        //"equals()" Method
+        //"equals()" Method: returns true if the given map is equal with the current map, otherwise returns false
         Map<String, Integer> map1 = new HashMap<>();
         map1.putAll(students);
 
@@ -82,7 +82,7 @@ public class MapMethods {
         System.out.println(map1.equals(map2));
 
 
-        // "clear()" method
+        // "clear()" method: returns(clear) all the pairs from the map
         map1.clear();
         map2.clear();
         System.out.println("map1 = " + map1);
