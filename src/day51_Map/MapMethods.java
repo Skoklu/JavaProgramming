@@ -82,14 +82,14 @@ public class MapMethods {
         System.out.println(map1.equals(map2));
 
 
-        // "clear()" method: returns(clear) all the pairs from the map
+        // "clear()" method: removes all the pairs from the map
         map1.clear();
         map2.clear();
         System.out.println("map1 = " + map1);
         System.out.println("map2 = " + map2);
 
 
-        //"keySet()" method
+
 
 
 
