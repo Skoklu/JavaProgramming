@@ -117,7 +117,7 @@ public class IteratingTheMap {
 
         // "entrySet()" method: returns all the entries (Entry: key & value) of Map
 
-        //getKey(), getValue(), setKey(), setValue() are used with entrySet Method
+        //getKey(), getValue(), setValue() are used with entrySet Method
 
         for (Map.Entry<String, Integer> entry : students.entrySet()) {
             //System.out.println(entry);
