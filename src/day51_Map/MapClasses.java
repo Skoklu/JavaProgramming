@@ -24,6 +24,8 @@ public class MapClasses {
         
 
         System.out.println("hashMap = " + hashMap);
+
+        System.out.println(hashMap.get(40));  //Map does not have index number but you can call it by using key
         
 
         Map<Integer, String> linkedHashMap = new LinkedHashMap<>();
