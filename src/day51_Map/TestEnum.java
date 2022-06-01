@@ -49,6 +49,36 @@ public class TestEnum {
 
             default:
                 System.out.println("Season is Winter");
+
+                System.out.println("------------------------------------------------------");
+
+                Level level = Level.EASY;
+
+                switch (level){
+
+                    case EASY:
+                        System.out.println("Level is Easy");
+                        break;
+
+                    case MEDIUM:
+                        System.out.println("Level is Medium");
+                        break;
+
+                    case HARD:
+                        System.out.println("Level is Hard");
+                        break;
+
+                    case EXPERT:
+                        System.out.println("Level is Expert");
+                        break;
+
+                    case ADVANCED:
+                        System.out.println("Level is Advanced");
+                        break;
+
+                    default:
+                        System.out.println("Level is Chuck_Norris");
+                }
         }
     }
 }
