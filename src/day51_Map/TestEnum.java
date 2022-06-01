@@ -52,33 +52,86 @@ public class TestEnum {
 
                 System.out.println("------------------------------------------------------");
 
-                Level level = Level.EASY;
 
-                switch (level){
-
-                    case EASY:
-                        System.out.println("Level is Easy");
-                        break;
-
-                    case MEDIUM:
-                        System.out.println("Level is Medium");
-                        break;
-
-                    case HARD:
-                        System.out.println("Level is Hard");
-                        break;
-
-                    case EXPERT:
-                        System.out.println("Level is Expert");
-                        break;
-
-                    case ADVANCED:
-                        System.out.println("Level is Advanced");
-                        break;
-
-                    default:
-                        System.out.println("Level is Chuck_Norris");
-                }
         }
+
+        Level level = Level.EASY;
+
+        switch (level){
+
+            case EASY:
+                System.out.println("Level is Easy");
+                break;
+
+            case MEDIUM:
+                System.out.println("Level is Medium");
+                break;
+
+            case HARD:
+                System.out.println("Level is Hard");
+                break;
+
+            case EXPERT:
+                System.out.println("Level is Expert");
+                break;
+
+            case ADVANCED:
+                System.out.println("Level is Advanced");
+                break;
+
+            default:
+                System.out.println("Level is Chuck_Norris");
+        }
+
+        Month month = Month.JANUARY;
+
+        switch (month){
+            case JANUARY:
+                System.out.println("Month is January");
+                break;
+
+            case FEBRUARY:
+                System.out.println("Month is February");
+                break;
+
+            case MARCH:
+                System.out.println("Month is March");
+                break;
+
+            case APRIL:
+                System.out.println("Month is April");
+                break;
+
+            case MAY:
+                System.out.println("Month is May");
+                break;
+
+            case JUNE:
+                System.out.println("Month is June");
+                break;
+
+            case JULY:
+                System.out.println("Month is July");
+                break;
+
+            case AUGUST:
+                System.out.println("Month is August");
+                break;
+
+            case SEPTEMBER:
+                System.out.println("Month is September");
+                break;
+
+            case OCTOBER:
+                System.out.println("Month is October");
+                break;
+
+            case NOVEMBER:
+                System.out.println("Month is November");
+                break;
+            default:
+                System.out.println("Month is December");
+        }
+
     }
 }
