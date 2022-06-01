@@ -28,5 +28,27 @@ public class TestEnum {
             default:
                 System.out.println("Chrome is selected");
         }
+
+        System.out.println("------------------------------------------------------");
+
+        Season season = Season.SUMMER;
+
+        switch (season){
+
+            case SPRING:
+                System.out.println("Season is Spring");
+                break;
+
+            case SUMMER:
+                System.out.println("Season is Summer");
+                break;
+
+            case FALL:
+                System.out.println("Season is Fall");
+                break;
+
+            default:
+                System.out.println("Season is Winter");
+        }
     }
 }
