@@ -2,6 +2,8 @@ package day53_FunctionalInterface;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class BuildInFunctionalInterfaces2 {
 
@@ -38,8 +40,38 @@ public class BuildInFunctionalInterfaces2 {
 
         };
 
+
+
+        //Create a function that can print the given String for given number of times
+        BiConsumer<String, Integer> printMultipleTimes = (s, n)->{
+            for (int i = 0; i < n; i++) {
+                System.out.println(s);
+
+            }
+        };
+        printMultipleTimes.accept("Java", 10);
+
         System.out.println("------------------------------------------------------------");
 
+        //Create a function that takes first and last names and returns the formatted full name
+
+        //"jAvA", "PROGRAMMING"
+
+        Map<String, String> scrumTeam1 = new LinkedHashMap<>();
+        scrumTeam1.put("Abdulhamid","SM");
+        scrumTeam1.put("Nikita","Developer");
+        scrumTeam1.put("Alina","Developer");
+        scrumTeam1.put("Mert","PO");
+        scrumTeam1.put("Lee","SDET");
+
+       /* for (Map.Entry<String, String> entry : scrumTeam1.entrySet()) {
+            String k = entry.getKey();
+            String v = entry.getValue();
+            System.out.println(k+ " : "+v);
+            }
+      */
+         //same with before lines
+        //scrumTeam1.forEach((k, v)-> System.out.println(k+ " : "+v));
 
     }
 }
