@@ -71,7 +71,7 @@ public class BuildInFunctionalInterfaces2 {
             }
       */
          //same with before lines
-        //scrumTeam1.forEach((k, v)-> System.out.println(k+ " : "+v));
+        scrumTeam1.forEach((k, v)-> System.out.println(k+ " : "+v));
 
     }
 }
